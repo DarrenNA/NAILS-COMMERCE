@@ -1,27 +1,6 @@
-<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
 <template>
-    <!--
-      This example requires updating your template:
-  
-      ```
-      <html class="h-full bg-gray-50">
-      <body class="h-full">
-      ```
-    -->
-    <div class="flex min-h-full items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
+    <div class="center flex min-h-full items-center justify-center px-4 py-12 sm:px-6 lg:px-8 ">
+      
       <div class="w-full max-w-md space-y-8">
         <div>
           <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company" />
@@ -29,7 +8,7 @@
           <p class="mt-2 text-center text-sm text-gray-600">
             Or
             {{ ' ' }}
-            <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">start your 14-day free trial</a>
+            <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Create One</a>
           </p>
         </div>
         <form class="mt-8 space-y-6" action="#" method="POST">
@@ -79,3 +58,4 @@ export default {
     name: "Login"
 }
 </script>
+
